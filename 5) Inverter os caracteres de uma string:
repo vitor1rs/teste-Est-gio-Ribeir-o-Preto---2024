@@ -1,0 +1,14 @@
+def inverter_string(str)
+  inverted = ""
+  i = str.length - 1
+
+  while i >= 0
+    inverted += str[i]
+    i -= 1
+  end
+
+  inverted
+end
+
+string_original = "Hello, World!"  # Pode ser alterada conforme necessário
+puts inverter_string(string_original)
