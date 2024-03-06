@@ -1,0 +1,12 @@
+def pertence_a_fibonacci?(num)
+  a, b = 0, 1
+
+  while b < num
+    a, b = b, a + b
+  end
+
+  num == b
+end
+
+numero_informado = 21  # Pode ser alterado conforme necessário
+puts pertence_a_fibonacci?(numero_informado) ? "Pertence à sequência de Fibonacci" : "Não pertence à sequência de Fibonacci"
