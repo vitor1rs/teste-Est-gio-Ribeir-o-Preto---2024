@@ -1,0 +1,7 @@
+# Para esta questão, é mais fácil explicar a lógica em palavras.
+# Primeira ida: Ligue o primeiro interruptor e aguarde alguns minutos.
+# Segunda ida: Desligue o primeiro interruptor e ligue o segundo interruptor.
+# Entre na sala:
+# - Se a lâmpada estiver acesa, ela está associada ao segundo interruptor.
+# - Se a lâmpada estiver apagada, mas ainda estiver quente, ela está associada ao primeiro interruptor.
+# - Se a lâmpada estiver apagada e fria, ela está associada ao terceiro interruptor.
